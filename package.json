@@ -1,0 +1,15 @@
+{
+  "name": "gpio-tests",
+  "version": "0.0.0",
+  "description": "",
+  "main": "n",
+  "scripts": {},
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "pi-gpio": "0.0.2",
+    "async": "~0.2.5",
+    "q": "~0.8.12"
+  }
+}
