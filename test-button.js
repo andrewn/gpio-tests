@@ -17,10 +17,10 @@ function failed(err) {
 function outputButtonState() {
   button.isPressed()
         .then( 
-          function (val) { console.log('button state: ', val); },
+          function (val) { console.log('isPressed? ', val); },
           failed
         )
-        .done(function () { console.log('done'); }, failed);
+        .done(null, failed);
 }
 
 function attachEventListeners() {
