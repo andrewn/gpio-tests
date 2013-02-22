@@ -13,5 +13,5 @@ function flash() {
      .then( function () { return things.wait(1000); } )
      .then( function () { return led.off(); })
      .then( function () { return things.wait(1000); } )
-     .then( function () { console.log('done'); flash(); });
+     .then( function () { flash(); });
 }
