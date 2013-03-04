@@ -2,7 +2,7 @@
   "name": "gpio-tests",
   "version": "0.0.0",
   "description": "",
-  "main": "n",
+  "main": "./lib/things",
   "scripts": {},
   "repository": "",
   "author": "",
